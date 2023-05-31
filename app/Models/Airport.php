@@ -17,4 +17,6 @@ class Airport extends Model
         'name_en'
     ];
 
+    protected $hidden = ['id']; // for alternate syntax
+
 }
