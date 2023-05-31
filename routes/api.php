@@ -15,4 +15,4 @@ use App\Http\Controllers\AirportController;
 |
 */
 
-Route::get('/search', AirportController::class);
+Route::get('/airports', AirportController::class);
