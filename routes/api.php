@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AirportController;
 
@@ -15,4 +14,4 @@ use App\Http\Controllers\AirportController;
 |
 */
 
-Route::get('/airports', AirportController::class);
+Route::get('/airports', [AirportController::class, 'search']);
